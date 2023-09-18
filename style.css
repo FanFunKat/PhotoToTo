@@ -67,7 +67,7 @@ a {
   justify-content: space-between;
   align-items: center;
   background-color: rgb(252, 242, 232);
-  margin: 130px 10% 70px;
+  margin: 150px 10% 70px;
 }
 
 .landing_text{
@@ -102,10 +102,32 @@ a {
 /* Examples */
 
 .example{
-  background-color: plum;
+  background-color: greenyellow;
+  margin: 150px 10% 70px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 5px;
+}
+
+.example__item {
+
+}
+
+.example__photo {
+  width: 100%;
+  padding: 5px;
 }
 
 /* Pricing */
+.offer {
+  background-color: #c681de;
+  margin: 150px 10% 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* footer */
 
 .social {
   background-color: greenyellow;
